@@ -1,0 +1,60 @@
+body{
+    background-color:burlywood
+}
+
+.main{
+    margin: 50px;
+    border: 2px solid black;
+    padding: 20px;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    background: rgb(252, 230, 135);
+    margin-left: 400px;
+    box-shadow: 10px 10px 10px black;
+}
+button{
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    color: white;
+    border: none;
+
+}
+button:hover{
+    cursor: pointer;
+}
+input:hover{
+    cursor: text;
+}
+.display{
+    margin: 0px 10px 0px 4px;
+}
+.display input{
+    width: 100%;
+    height: 30px;
+    background-color:beige;
+    font-size: 20px;
+    padding: 5px;
+
+}
+.mainbtn{
+    margin-top: 20px;
+}
+.mainbtn div{
+    width: 100%;
+    display: flex;
+    gap:20px;
+    margin-top: 5px;
+}
+.black{
+    background-color: rgb(61, 61, 61);
+}
+.pink{
+    background-color: rgb(252, 1, 60);
+}
+.gray{
+    background: gray;
+}
