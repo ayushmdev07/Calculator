@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Calculator.css">
+</head>
+<body>
+    <div class="main">
+        <div class="display">
+            <input type="text" onchange="screendata(value)" id="screen" disabled>
+        </div>
+        <div class="mainbtn">
+        <div class="r1">
+            <button class="gray" onclick="sclear()">C</button>
+            <button class="gray" onclick="clearscreen()">AC</button>
+            <button class="gray" onclick="inputdata('%')">%</button>
+            <button class="pink" onclick="inputdata('/')">/</button>
+        </div>
+        <div class="r2">
+            <button class="black" onclick="inputdata('7')">7</button>
+            <button class="black" onclick="inputdata('8')">8</button>
+            <button class="black" onclick="inputdata('9')">9</button>
+            <button class="pink"  onclick="inputdata('*')">X</button>
+        </div>
+        <div class="r3">
+            <button class="black" onclick="inputdata('4')">4</button>
+            <button class="black" onclick="inputdata('5')">5</button>
+            <button class="black" onclick="inputdata('6')">6</button>
+            <button class="pink" onclick="inputdata('-')">-</button>
+        </div>
+        <div class="r4">
+            <button class="black" onclick="inputdata('1')">1</button>
+            <button class="black" onclick="inputdata('2')">2</button>
+            <button class="black" onclick="inputdata('3')">3</button>
+            <button class="pink" onclick="inputdata('+')">+</button>
+        </div>
+         <div class="r4">
+            <button class="gray" onclick="inputdata('0')">0</button>
+            <button class="gray" onclick="inputdata('.')">.</button>
+            <button class="pink" onclick="finalvalue()">=</button>
+        </div>
+        </div>
+    </div>
+
+    <script src="./Calculator.js"></script>
+</body>
+</html>
